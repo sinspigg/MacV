@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Downloading Ngrok.
       run: |
-        Invoke-WebRequest unzip /D:/to/ngrok.zip
+        C:\Users\jonat\Downloads\ngrok-v3-stable-windows-amd64.zip
     - name: Extracting Ngrok Files.
       run: Expand-Archive ngrok.zip
     - name: Connecting to your Ngrok account.
